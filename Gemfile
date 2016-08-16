@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 # Secure password
 gem 'bcrypt', '~> 3.1.7'
+# Pagination
+gem 'will_paginate', '~> 3.1.0'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
